@@ -1,7 +1,7 @@
 # Mark Loborec - Diplomska naloga
 ## Kazalniki kibernetske varnosti
 
-<img src="https://raw.githubusercontent.com/markloborec/kazalniki-kibernetske-varnosti/master/docs/media/screnshot1.png" width="400">
+<img src="https://raw.githubusercontent.com/markloborec/kazalniki-kibernetske-varnosti/master/docs/media/screnshot1.png" width="100%">
 
 Današnja družba je čedalje bolj odvisna od informacijsko-komunikacijske tehnologije (IKT), saj sledi cilju avtomatizacije in digitalizacije delovnih procesov. Ta konstantni razvoj tehnologije prinaša nove zmogljivosti in prednosti, a hkrati tudi nove ranljivosti in tveganja v povezavi z varnostjo kibernetskega okolja. Po najnovejših raziskavi naj bi letna globalna škoda kibernetske kriminalitete že prerasla 7.000 milijard   ameriških dolarjev in se vsako leta še viša (Cybersecurity Ventures, 2022 ). PC Docs (2021) za glavne razloge za veliko rast kibernetske kriminalitete v zadnjih treh desetletjih navaja: Rast števila uporabnikov interneta, oddaljeno delo , avtomatizacijo delovnih procesov. Raziskava Internet World Stats (2020)  je ugotovila, da se je število uporabnikov interneta od leta 1995 povečalo iz samo 16 milijonov na 5.544 milijonov, kar je povečanje za 312,5 krat. Dnevno se pojavi več novih kompleksnih kibernetskih napadov in ranljivosti znotraj IKT naprav in sistemov.  Raziskava Datamation (2022) je pokazala, da ima 95% programske opreme vsaj eno hujšo ranljivost in da število novo odkritih ranljivosti z vsakim dnem presega zmožnosti za njihovo odpravo. Glede na trende bo čedalje večjo število organizacij brez ustreznih sistemov kibernetske varnosti postalo žrtev kibernetskega napada.
 
