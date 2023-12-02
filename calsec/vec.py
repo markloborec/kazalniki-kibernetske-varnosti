@@ -6,7 +6,7 @@ def multi(v1:list[float],v2:list[float])->list[float]:
         v3.append(num1*num2)
     return v3
 
-def skal_multi(v1: list[float], s: float):
+def skal_multi(v1: list[float], s: float) -> list[float]:
     v2 = []
     for i in range(len(v1)):
         v2.append(v1[i] * s)

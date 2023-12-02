@@ -92,7 +92,7 @@ def TNPPS_ONMAPS(
 
 ################################################
 
-def TEPS(Resultmeasure: list[float],
+def TEPS(Resultmeasure: float,
          Wmeasure: list[float],
          C: float = 10):
     """
@@ -102,7 +102,7 @@ def TEPS(Resultmeasure: list[float],
     :param C:  Normalization constant = 10
     :return: The value of the TEPS Cybersecurity Indicator.
     """
-    up = sum(vec.skal_multi(Resultmeasure, Wmeasure))
+    up = sum(vec.skal_multi(Wmeasure, Resultmeasure))
     down = sum(Wmeasure)
     return C * up / down
 
@@ -123,7 +123,7 @@ def TEPS_OLMCMD_SD(
         MDSDcounterm: list[float]):
     """
 
-    :param MDSDcounterm: Monthly incident number from harmful emails
+    :param MDSDcounterm: Monthly incident on final points of omrežje
     :return: Returns the value of OLMDMD
     """
     up = sum(MDSDcounterm)
@@ -134,7 +134,7 @@ def TEPS_OLMCMD_SD(
 
 
 ###########################################
-def THSS(Resultmeasure: list[float],
+def THSS(Resultmeasure: float,
          Wmeasure: list[float],
          C: float = 10):
     """
@@ -144,7 +144,7 @@ def THSS(Resultmeasure: list[float],
     :param C:  Normalization constant = 10
     :return: The value of the THSS Cybersecurity Indicator.
     """
-    up = sum(vec.skal_multi(Resultmeasure, Wmeasure))
+    up = sum(vec.skal_multi(Wmeasure,Resultmeasure))
     down = sum(Wmeasure)
     return C * up / down
 
@@ -177,7 +177,7 @@ def THSS_OLMCHR(
 
 def OIMTBI(I: list[datetime.date]):
     """
-    :param I: The least of any incidents
+    :param I: The list of any incidents
     :return I: Average number of days between incidents
     """
     I.sort()

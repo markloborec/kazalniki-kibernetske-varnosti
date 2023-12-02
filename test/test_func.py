@@ -129,7 +129,7 @@ class Test_TNPPS_ONMAPS(unittest.TestCase):
 
 class Test_TEPS(unittest.TestCase):
     def test_1(self):
-        returned = func.TNPPS(
+        returned = func.TEPS(
             Resultmeasure = [
             func.TEPS_OLMCMW([1 for i in range(12)]),
             func.TEPS_OLMCMD_SD([1 for i in range(12)]),
@@ -195,7 +195,18 @@ class Test_TEPS_OLMCMD_SD(unittest.TestCase):
         )
         self.assertEqual(returned, 5.75)
 
+class Test_THSS(unittest.TestCase):
+    def test_1(self):
+        returned = func.THSS(
+            Resultmeasure = [
+            func.THSS_OLMCSE([1 for i in range(12)]),
+            func.THSS_OLMCHR([1 for i in range(12)]),
 
+        ],
+
+            Wmeasure =[10,10],
+            C=10,
+        )
 class Test_THSS_OLMCSE(unittest.TestCase):
     def test_1(self):
         returned = func.THSS_OLMCSE(
