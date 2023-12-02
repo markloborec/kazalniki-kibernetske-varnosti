@@ -1,12 +1,24 @@
 from PyQt5 import QtWidgets, uic
-
-
+from PyQt5.QtWidgets import QDateEdit, QComboBox, QPushButton, QTableWidget, QLabel
 
 from calsec import utils
 
 
 
 class MainWindow(QtWidgets.QMainWindow):
+    datumIncidentaDE : QDateEdit
+    kategorijaIncidentaCB: QComboBox
+    vnesiIncidentPB: QPushButton
+    incidentiTW: QTableWidget
+    tepsL: QLabel
+    thssL: QLabel
+    spsL: QLabel
+    tnppsL: QLabel
+    oimtbiL: QLabel
+
+
+
+
 
     def __init__(self):
 
